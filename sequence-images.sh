@@ -1,7 +1,7 @@
 #!/bin/bash
 
 base_dir="/tmp/CORRUPTIMATOR"
-resized_images_dir="$base_dir/03_all_resized"
+resized_images_dir="$base_dir/03_all_resized/1024x576"
 sequenced_images_dir="$base_dir/04_all_sequenced"
 log_dir="$base_dir/logs"
 imgcount=$1
