@@ -1,6 +1,6 @@
 #!/bin/bash
 
-base_dir="/tmp/CORRUPTIMATOR/test01"
+base_dir="/tmp/CORRUPTIMATOR/"
 corrupt_images_dir="$base_dir/01_all_corrupted_since_20101209"
 timestamped_images_dir="$base_dir/02_all_timestamped"
 log_dir="$base_dir/logs"

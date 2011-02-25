@@ -1,10 +1,9 @@
 #!/bin/bash
 
-source_base_dir="/Volumes/Recyclism/Benjamin/CORRUPT/corruptimator"
-target_base_dir="/tmp/CORRUPTIMATOR"
-corrupt_images_dir="$source_base_dir/01_all_corrupted"
-timestamped_images_dir="$target_base_dir/02_all_timestamped"
-log_dir="$target_base_dir/logs"
+base_dir="/tmp/CORRUPTIMATOR"
+corrupt_images_dir="$base_dir/01_all_corrupted"
+timestamped_images_dir="$base_dir/02_all_timestamped"
+log_dir="$base_dir/logs"
 timestamped_image_log="$log_dir/timestamps-and-filenames.txt"
 imgcount=$1
 
@@ -34,8 +33,6 @@ fi
 N=0
 cat "$timestamped_image_log" | while read line; do 
   N=$((N+1))
-
-  #echo "Line $N = $LINE"
 
   timestamp="${line:0:15}"
   #echo "Timestamp: $timestamp"
