@@ -43,23 +43,19 @@ The following software is also needed:
 5. Open a Terminal window and execute the following commands in order:
 
 ### Process 
-1. Clean up filenames
-Removes any illegal characters from the filenames
+1. Clean up filenames  
+Removes any illegal characters from the filenames  
 <pre><code>clean-image-filenames.sh</code></pre>
-
-2. Generate timestamps
+2. Generate timestamps  
 Generates symbolic links to the cleaned-up filenames, named according to image creation date  
 <pre><code>sort-images.sh</code></pre>
-
-3. Resize images
-Resize images to the desired output video frame size (currently hard-coded to 1024x576)
+3. Resize images  
+Resize images to the desired output video frame size (currently hard-coded to 1024x576)  
 <pre><code>resize-images.sh</code></pre>
-
-4. Sequence images
-Create a consecutively numbered image sequence
+4. Sequence images  
+Create a consecutively numbered image sequence  
 <pre><code>sequence-images.sh</code></pre>
-
-5. Generate video 
-This is currently hard-coded to generate 24fps video in an MP4 container at 1800kbps 
-<pre><code>make-video.sh</code></pre>
+5. Generate video  
+This is currently hard-coded to generate 24fps video in an MP4 container at 1800kbps  
+<pre><code>make-video.sh</code></pre>  
 
