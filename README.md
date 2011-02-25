@@ -30,7 +30,8 @@ This has only been tested on Mac OS X 10.6 and no guarantees whatsoever are give
 
 The following software is also needed:
 
-* ffmpeg ([Mac OS X installation guide](http://stephenjungels.com/jungels.net/articles/ffmpeg-howto.html))
+* [FFmpeg](http://www.ffmpeg.org) ([Mac OS X installation guide](http://stephenjungels.com/jungels.net/articles/ffmpeg-howto.html))
+* [ImageMagick](http://www.imagemagick.org) ([Mac OS X installation guide](http://www.imagemagick.org/script/binary-releases.php#macosx))
 
 ## Usage 
 
