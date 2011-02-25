@@ -32,7 +32,7 @@ The following software is also needed:
 
 * ffmpeg ([Mac OS X installation guide](http://stephenjungels.com/jungels.net/articles/ffmpeg-howto.html))
 
-## Usage
+## Usage 
 
 ### Setup
 1. Choose a place somewhere on your hard drive to locate the working folder. e.g. /tmp/CORRUPTIMATOR
@@ -40,26 +40,31 @@ The following software is also needed:
    /tmp/CORRUPTIMATOR/01_all_corrupted
 3. Update the shell scripts to point to the correct path locations as above
 4. Copy timer3.sh to ~/bin/timer3 and change its permissions to allow execution (chmod u+x ~/bin/timer3)
-5. Open a Terminal window and type in the following commands at each step of the process:
+5. Open a Terminal window and execute the following commands in order:
 
 ### Process 
 1. Clean up filenames
 
-    clean-image-filenames.sh
+Removes any illegal characters from the filenames
+<pre><code>clean-image-filenames.sh</code></pre>
 
-2. Sort by timestamp  
+2. Generate timestamps
 
-    sort-images.sh 
+Generates symbolic links to the cleaned-up filenames, named according to image creation date  
+<pre><code>sort-images.sh</code></pre>
 
 3. Resize images
 
-    resize-images.sh
+Resize images to the desired output video frame size (currently hard-coded to 1024x576)
+<pre><code>resize-images.sh</code></pre>
 
-4. Create a consecutively numbered image sequence 
-    
-    sort-images.sh
+4. Sequence images
 
-5. Generate video (currently set to MP4, 24fps, 1800kbps) 
+Create a consecutively numbered image sequence
+<pre><code>sequence-images.sh</code></pre>
 
-    make-video.sh
+5. Generate video 
+
+This is currently hard-coded to generate 24fps video in an MP4 container at 1800kbps 
+<pre><code>make-video.sh</code></pre>
 
