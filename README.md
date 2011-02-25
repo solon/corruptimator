@@ -44,18 +44,18 @@ The following software is also needed:
 
 ### Process 
 1. Clean up filenames  
-Removes any illegal characters from the filenames  
-<pre><code>clean-image-filenames.sh</code></pre>
+> Removes any illegal characters from the filenames  
+> <pre><code>clean-image-filenames.sh</code></pre>
 2. Generate timestamps  
-Generates symbolic links to the cleaned-up filenames, named according to image creation date  
-<pre><code>sort-images.sh</code></pre>
+> Generates symbolic links to the cleaned-up filenames, named according to image creation date  
+> <pre><code>sort-images.sh</code></pre>
 3. Resize images  
-Resize images to the desired output video frame size (currently hard-coded to 1024x576)  
-<pre><code>resize-images.sh</code></pre>
+> Resize images to the desired output video frame size (currently hard-coded to 1024x576)  
+> <pre><code>resize-images.sh</code></pre>
 4. Sequence images  
-Create a consecutively numbered image sequence  
-<pre><code>sequence-images.sh</code></pre>
+> Create a consecutively numbered image sequence  
+> <pre><code>sequence-images.sh</code></pre>
 5. Generate video  
-This is currently hard-coded to generate 24fps video in an MP4 container at 1800kbps  
-<pre><code>make-video.sh</code></pre>  
+> This is currently hard-coded to generate 24fps video in an MP4 container at 1800kbps  
+> <pre><code>make-video.sh</code></pre>  
 
