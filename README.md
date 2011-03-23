@@ -40,7 +40,7 @@ The following software is also needed:
 2. Update the $base_dir value in the five Bash scripts to point to the correct path as chosen in step 1
 3. Copy the corrupted images from the web/FTP server into
    /tmp/CORRUPTIMATOR/01_all_corrupted
-4. Copy timer3.sh to somewhere in your path (e.g. ~/bin/timer3) and change its permissions to allow execution (chmod u+x ~/bin/timer3). 
+4. Copy timeout3.sh to somewhere in your path (e.g. ~/bin/timeout3) and change its permissions to allow execution (chmod u+x ~/bin/timeout3). 
 5. Open a Terminal window and execute the following commands in order:
 
 ### Process 
