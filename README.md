@@ -6,7 +6,7 @@
 
 ## License:
 
-* timer3.sh: unknown, taken from the Bash Cookbook (GPLv3?)
+* timeout3.sh: unknown, taken from the Bash Cookbook (GPLv3?)
 * Everything else: [The Unlicense](http://unlicense.org) (aka: public domain)
 
 ## Summary:
