@@ -62,11 +62,10 @@ This is currently hard-coded to generate 24fps video in an MP4 container at 1800
 
 ## License
 
-* timeout3.sh: unknown, taken from the Bash Cookbook (GPLv3?)
-* Everything else: [The Unlicense](http://unlicense.org) (see below)
+* timeout3.sh: license unknown, taken from the Bash Cookbook, possibly GPLv3?
+* everything else: [The Unlicense](http://unlicense.org)
 
-
-## (Un)license
+### (Un)license
 
 This is free and unencumbered software released into the public domain.
 
